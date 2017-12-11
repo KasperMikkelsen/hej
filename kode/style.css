@@ -37,12 +37,11 @@
     background-color: #5F9EA0;
 }
 
-<<<<<<< HEAD
 input [type="text"] {
     background-color: #ff0000;
     color: #ff0000;
 }
-=======
+
 h2 {
     text-align: center;
     margin-right: 70px;
@@ -79,5 +78,3 @@ input[text], input[password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
->>>>>>> 14f50e8363fa405342c3ec0877aebd51fb3b4869
