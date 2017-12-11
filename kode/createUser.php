@@ -33,7 +33,11 @@
 
 
 	?>
-	<form>
+<header>
+</header>
+<div class="whatever">
+	<h2>Sign Up</h2>
+	<form method="post" name="signUpForm">
 		<label>Username:</label>
 		<br>
 		<input type="text" name="username" placeholder="Enter your Username">
@@ -50,7 +54,8 @@
 		<br>
 		<input type="text" name="alder" placeholder="Enter your Age">
 		<br>
-		<input type="submit" name="create" value="Create">
+		<input type="submit" name="create" class="signup" value="Create">
 	</form>
+</div>
 <body>
 </html>
