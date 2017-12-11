@@ -31,15 +31,19 @@
 	?>
 	<form>
 		<label>Username:</label>
+		<br>
 		<input type="text" name="username" placeholder="Enter your Username">
 		<br>
 		<label>Password:</label>
+		<br>
 		<input type="password" name="password" placeholder="Enter your Password">
 		<br>
 		<label>Your full name:</label>
+		<br>
 		<input type="text" name="navn" placeholder="Enter your Name">
 		<br>
 		<label>Your age:</label>
+		<br>
 		<input type="text" name="alder" placeholder="Enter your Age">
 		<br>
 		<input type="submit" name="create" value="Create">
