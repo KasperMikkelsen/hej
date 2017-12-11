@@ -4,6 +4,10 @@
 
 ?>
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Sign up page</title>
+</head>
 <body>
 	<?php
 	if(isset($_POST["create"])) {
