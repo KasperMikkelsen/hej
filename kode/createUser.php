@@ -8,10 +8,23 @@
 	<?php
 	if(isset($_POST["submit"])) {
 		$hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
-		$sql = "INSERT INTO user (username, password, navn, alder)
+		$sql = "INSERT INTO login (username, password, navn, alder)
 		VALUES ('".$_POST["username"]."' , '".$hash."' , '".$_POST["navn"]."' , '".$_POST["alder"]."')";
 
-		
+		$query = "SELECT * FROM login WHERE username = '".$_POST["username"]."'";
+		$res = mysqli_query($con, $query);
+		$rows = mysqli_num_rows($res);
+		if ($rows>=1) 
+		{	
+			$message = "User exists, please choose another";
+			echo "<script type='text/javascript'>alert('$message');</script>";
+		} 
+		else
+		{
+			$con->query($sql);
+			header("Location: login.php");
+		}
+
 	}
 
 
