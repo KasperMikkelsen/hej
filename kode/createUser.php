@@ -3,7 +3,11 @@
 	include 'connectDB';
 
 ?>
-<html
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="sytle.css">
+	<title>Sign up page</title>
+</head>
 <body>
 	<?php
 	if(isset($_POST["submit"])) {
@@ -29,17 +33,22 @@
 
 
 	?>
+	
 	<form>
 		<label>Username:</label>
+		<br>
 		<input type="text" name="username">
 		<br>
 		<label>Password:</label>
+		<br>
 		<input type="password" name="password">
 		<br>
 		<label>Your full name:</label>
+		<br>
 		<input type="text" name="navn">
 		<br>
 		<label>Your age:</label>
+		<br>
 		<input type="text" name="alder">
 		<br>
 		<input type="submit" name="create" value="Create">
