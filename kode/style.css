@@ -44,7 +44,7 @@ input [type="text"] {
 
 h2 {
     text-align: center;
-    margin-right: 70px;
+    margin-right: 60px;
     color: #ff4411;
     font-size: 32px;
     font-family: 'Signika', sans-serif;
@@ -77,4 +77,10 @@ input[text], input[password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+
+label {
+    color: #ff4411;
+    font-size: px;
+    font-family: 'Signika', sans-serif;
 }
