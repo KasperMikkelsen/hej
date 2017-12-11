@@ -28,20 +28,32 @@ if(isset($_POST['login'])) {
     }
 }
 ?>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Login Page</title>
+</head>
 <body>
-	<form>
+<div class="whatever">
+	<form method="post">
 		<label>Username:</label>
-		<input type="text" name="username">
+		<br>
+		<input type="text" name="username" placeholder="Enter your Username">
 		<br>
 		<label>Password:</label>
-		<input type="password" name="password">
+		<br>
+		<input type="password" name="password" placeholder="Enter your Password">
 		<br>
 		<label>Your full name:</label>
-		<input type="text" name="navn">
+		<br>
+		<input type="text" name="navn" placeholder="Enter your Name">
 		<br>
 		<label>Your age:</label>
-		<input type="text" name="alder">
 		<br>
-		<input type="submit" name="create" value="Create">
+		<input type="text" name="alder" placeholder="Enter your Age">
+		<br>
+		<input type="submit" name="create" class="signup" value="Create">
 	</form>
+</div>
 <body>
+</html>

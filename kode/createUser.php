@@ -6,7 +6,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Sign up page</title>
+	<title>Sign Up Page</title>
 </head>
 <body>
 	<?php
