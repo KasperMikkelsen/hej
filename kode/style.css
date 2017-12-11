@@ -32,3 +32,40 @@
     background-color: #5F9EA0;
 }
 
+h2 {
+    text-align: center;
+    margin-right: 70px;
+    color: #ff4411;
+    font-size: 32px;
+    font-family: 'Signika', sans-serif;
+    padding-bottom: 10px;
+}
+
+.whatever {
+   text-align: center;
+   padding: 16px;
+   margin-top: 60px;
+}
+
+.signup {
+    padding:5px 15px; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: white;
+    font-size: 28px;
+    font-family: 'Signika', sans-serif;
+    color: #ff4411;
+
+}
+
+input[text], input[password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
