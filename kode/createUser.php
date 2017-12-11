@@ -1,16 +1,19 @@
 <?php
 
-	include 'connectDB';
+	include "connectDB.php";
 
 ?>
 <html>
+<<<<<<< HEAD
 <head>
 	<link rel="stylesheet" type="text/css" href="sytle.css">
 	<title>Sign up page</title>
 </head>
+=======
+>>>>>>> d54734d2dd18551142211a52741b9843b62bc666
 <body>
 	<?php
-	if(isset($_POST["submit"])) {
+	if(isset($_POST["create"])) {
 		$hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
 		$sql = "INSERT INTO login (username, password, navn, alder)
 		VALUES ('".$_POST["username"]."' , '".$hash."' , '".$_POST["navn"]."' , '".$_POST["alder"]."')";
@@ -36,6 +39,7 @@
 	
 	<form>
 		<label>Username:</label>
+<<<<<<< HEAD
 		<br>
 		<input type="text" name="username">
 		<br>
@@ -50,6 +54,18 @@
 		<label>Your age:</label>
 		<br>
 		<input type="text" name="alder">
+=======
+		<input type="text" name="username" placeholder="Enter your Username">
+		<br>
+		<label>Password:</label>
+		<input type="password" name="password" placeholder="Enter your Password">
+		<br>
+		<label>Your full name:</label>
+		<input type="text" name="navn" placeholder="Enter your Name">
+		<br>
+		<label>Your age:</label>
+		<input type="text" name="alder" placeholder="Enter your Age">
+>>>>>>> d54734d2dd18551142211a52741b9843b62bc666
 		<br>
 		<input type="submit" name="create" value="Create">
 	</form>
