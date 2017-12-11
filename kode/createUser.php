@@ -1,12 +1,12 @@
 <?php
 
-	include 'connectDB';
+	include "connectDB.php";
 
 ?>
-<html
+<html>
 <body>
 	<?php
-	if(isset($_POST["submit"])) {
+	if(isset($_POST["create"])) {
 		$hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
 		$sql = "INSERT INTO login (username, password, navn, alder)
 		VALUES ('".$_POST["username"]."' , '".$hash."' , '".$_POST["navn"]."' , '".$_POST["alder"]."')";
@@ -31,16 +31,16 @@
 	?>
 	<form>
 		<label>Username:</label>
-		<input type="text" name="username">
+		<input type="text" name="username" placeholder="Enter your Username">
 		<br>
 		<label>Password:</label>
-		<input type="password" name="password">
+		<input type="password" name="password" placeholder="Enter your Password">
 		<br>
 		<label>Your full name:</label>
-		<input type="text" name="navn">
+		<input type="text" name="navn" placeholder="Enter your Name">
 		<br>
 		<label>Your age:</label>
-		<input type="text" name="alder">
+		<input type="text" name="alder" placeholder="Enter your Age">
 		<br>
 		<input type="submit" name="create" value="Create">
 	</form>
