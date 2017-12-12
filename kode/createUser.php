@@ -34,8 +34,10 @@
 
 	?>
 <header>
-	
+
 </header>
+<!-- create user textboxes and button start -->
+<!-- desription -->
 <div class="whatever">
 	<h2>Sign Up</h2>
 	<form method="post" name="signUpForm">
@@ -58,5 +60,6 @@
 		<input type="submit" name="create" class="signup" value="Create">
 	</form>
 </div>
+<!-- create user textboxes and button end -->
 <body>
 </html>
