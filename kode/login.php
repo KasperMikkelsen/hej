@@ -43,16 +43,16 @@ if(isset($_POST['login'])) {
 		<label>Password:</label>
 		<br>
 		<input type="password" name="password" placeholder="Enter your Password">
-		<br>
+		<!-- <br>
 		<label>Your full name:</label>
 		<br>
 		<input type="text" name="navn" placeholder="Enter your Name">
 		<br>
 		<label>Your age:</label>
 		<br>
-		<input type="text" name="alder" placeholder="Enter your Age">
+		<input type="text" name="alder" placeholder="Enter your Age"> -->
 		<br>
-		<input type="submit" name="create" class="signup" value="Create">
+		<input type="submit" name="create" class="signup" value="Log in">
 	</form>
 </div>
 <body>
