@@ -82,3 +82,12 @@ label {
     font-family: 'Signika', sans-serif;
 }
 
+h1 {
+    text-align: center;
+    color: purple;
+}
+.homeScreen {
+    background-color: #787878;
+
+}
+

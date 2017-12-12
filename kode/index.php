@@ -1,10 +1,12 @@
-<html>
+<html class="homeScreen">
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
- 	<title></title>
+ 	<title>home page</title>
 </head>
 <body>
 <header>
+	<h1>This is the home page</h1>
+
 	<!-- dropdown menu start -->
 	<div class="dropdown">
   <button class="dropbtn">Menu</button>
