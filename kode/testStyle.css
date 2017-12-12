@@ -6,6 +6,14 @@ html {
 	text-align: center;
 }
 .randomText {
-	color: purple;
+	color: red;
 	text-align: right;
+}
+.randomText2 {
+	color: red;
+	text-align: center;
+}
+.randomText3 {
+	color: red;
+	text-align: left;
 }
