@@ -26,7 +26,6 @@
 		else
 		{
 			$con->query($sql);
-			sleep(2);
 			header("Location: login.php");
 		}
 

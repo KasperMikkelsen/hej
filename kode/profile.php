@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-echo "You're currently logged in as: " . $_SESSION["username"];
+// echo "Welcome: " . $_SESSION["username"];
 
 ?>
 
@@ -14,7 +14,8 @@ echo "You're currently logged in as: " . $_SESSION["username"];
 	<title>Profile</title>
 </head>
 <body>
-	<header>Profile page</header>
+
+	<header><h1><?php echo "Welcome: " . $_SESSION["username"]; ?></h1></header>
 
 <p>stuff about the person</p>
 
