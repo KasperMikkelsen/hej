@@ -20,12 +20,13 @@
 		$rows = mysqli_num_rows($res);
 		if ($rows>=1) 
 		{	
-			$message = "User exists, please choose another";
+			$message = "User exists, please choose another.";
 			echo "<script type='text/javascript'>alert('$message');</script>";
 		} 
 		else
 		{
 			$con->query($sql);
+			sleep(2);
 			header("Location: login.php");
 		}
 

@@ -17,12 +17,12 @@ if(isset($_POST['login'])) {
     	$_SESSION["username"] = $_POST['username'];
         $_SESSION["password"] = $_POST['password'];
 
-        $message = "You have succesfully logged in";
-        echo "<script type='text/javascript'>alert('$message');</script>";
+        sleep(2);
+        header("Location: profile.php");	
 
     }
     else {
-        $message = "Wrong username or password";
+        $message = "Wrong username or password.";
         echo "<script type='text/javascript'>alert('$message');</script>";
     }
 }

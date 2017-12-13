@@ -1,5 +1,8 @@
 <?php
 
+session_start();
+echo "You're currently logged in as: " . $_SESSION["username"];
+
 ?>
 
 
@@ -10,8 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Profile</title>
 </head>
-<header>Profile page</header>
 <body>
+	<header>Profile page</header>
 
 <p>stuff about the person</p>
 
