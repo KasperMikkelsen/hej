@@ -1,5 +1,5 @@
 <?php
-
+	//Connecting to database
 	include "connectDB.php";
 
 ?>
@@ -10,21 +10,31 @@
 </head>
 <body>
 	<?php
+
+	//If we press create, it will put our hash, sql, query, result and rows into variables.
+	//In the hash variable it takes the user input and hashes it.
+	//In the sql variable it takes the user input into a sql string.
+
 	if(isset($_POST["create"])) {
 		$hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
 		$sql = "INSERT INTO login (username, password, navn, alder)
 		VALUES ('".$_POST["username"]."' , '".$hash."' , '".$_POST["navn"]."' , '".$_POST["alder"]."')";
+
+		//We make sure there's no users with the same username.
+		//By taking our query and searches for the same user input in our database.
 
 		$query = "SELECT * FROM login WHERE username = '".$_POST["username"]."'";
 		$res = mysqli_query($con, $query);
 		$rows = mysqli_num_rows($res);
 		if ($rows>=1) 
 		{	
+			//Alerts the user if the username already exists.
 			$message = "Username exists, please choose another.";
 			echo "<script type='text/javascript'>alert('$message');</script>";
 		} 
 		else
 		{
+			//Runs the query if there's no user with the same user input and redirects us to login page.
 			$con->query($sql);
 			header("Location: login.php");
 		}

@@ -1,4 +1,4 @@
-
+/*Dropdown menu --Start--*/
 .dropbtn {
     background-color: #4CAF50;
     color: #000000;
@@ -32,11 +32,17 @@
 .dropdown:hover .dropbtn {
     background-color: #5F9EA0;
 }
+/*Dropdown menu --Ends--*/
 
-input [type="text"] {
-    background-color: #ff0000;
-    color: #ff0000;
+
+/*Index background colour*/
+
+.homeScreen {
+    background-color: #787878;
+
 }
+
+/*Login*/
 
 h2 {
     text-align: center;
@@ -82,12 +88,5 @@ label {
     font-family: 'Signika', sans-serif;
 }
 
-h1 {
-    text-align: center;
-    color: purple;
-}
-.homeScreen {
-    background-color: #787878;
-
-}
+/*Login --Ends--*/
 
