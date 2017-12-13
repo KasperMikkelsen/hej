@@ -1,9 +1,13 @@
-# Vi bygger en hjemmeside som var beregnet til et chat program lidt a la facebook.
-# Vi har lavet en database i phpMyAdmin hvor du skal lave en database ved navn "db2"
-# og så skal du import vores table via vores sql fil.
+﻿# we build a website that can be used as a chat site a little like facebook.
 
-# Vi starter på en index.php fil, som er vores home page, hvor vi har en dropdown menu
-# hvor du kan vælge imellem en signup og login.
-# På vores signup page tager vi brugerinputs som kommer ind på vores databasen når der bliver trykket "Create".
-# På vores login page checker vi om brugerinputs er rigtige i forhold til databasen når der bliver trykket "Login".
-# Eftersom bliver vi redirected til vores profile page, hvor den viser hvilken bruger du er logget ind på.
+# we have made a database in phpmyadmin where you have to make a database with the name db2 because we were not able to export the database
+# otherwise you just have to edit some code in connectDB.php
+# and you have to import our table, it is called databaseLN
+
+# we starts on a page called index.php, it is our home page where we have a dropdown menu
+# here you can choose between signup and login.
+
+# on our signup page, we take the userinput and put them into our database then the button Created is pressed
+
+# on our login page we check's the userinput that it checks out with an user in your database after the button login is pressed
+# afterwards you will be directed onto our profile page, where is shows with user is logged in, it comes in a form of welcome "username"
