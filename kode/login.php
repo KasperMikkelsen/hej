@@ -20,7 +20,6 @@ if(isset($_POST['login'])) {
         $message = "You have succesfully logged in";
         echo "<script type='text/javascript'>alert('$message');</script>";
 
-        header("Location: loggedIn.php");
     }
     else {
         $message = "Wrong username or password";
@@ -35,24 +34,17 @@ if(isset($_POST['login'])) {
 </head>
 <body>
 <div class="whatever">
-	<form method="post">
+	<form method="post" name="signUpForm">
+		<h2>Login</h2>
 		<label>Username:</label>
 		<br>
-		<input type="text" name="username" placeholder="Enter your Username">
-		<br>
+		<input type="text" name="username" placeholder="Username">
+		<br><br>
 		<label>Password:</label>
 		<br>
-		<input type="password" name="password" placeholder="Enter your Password">
-		<br>
-		<label>Your full name:</label>
-		<br>
-		<input type="text" name="navn" placeholder="Enter your Name">
-		<br>
-		<label>Your age:</label>
-		<br>
-		<input type="text" name="alder" placeholder="Enter your Age">
-		<br>
-		<input type="submit" name="create" class="signup" value="Create">
+		<input type="password" name="password" placeholder="Password">
+		<br><br>
+		<input type="submit" name="login" class="signup" value="Login">
 	</form>
 </div>
 <body>
