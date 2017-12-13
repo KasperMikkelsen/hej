@@ -39,8 +39,8 @@
 <!-- create user textboxes and button start -->
 <!-- desription -->
 <div class="whatever">
-	<h2>Sign Up</h2>
 	<form method="post" name="signUpForm">
+		<h2>Sign Up</h2>
 		<label>Username:</label>
 		<br>
 		<input type="text" name="username" placeholder="Enter your Username">
