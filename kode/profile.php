@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Profile</title>
 </head>
-<header></header>
+<header>Profile page</header>
 <body>
 
 <p>stuff about the person</p>
