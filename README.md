@@ -11,3 +11,6 @@
 
 # on our login page we check's the userinput that it checks out with an user in your database after the button login is pressed
 # afterwards you will be directed onto our profile page, where is shows with user is logged in, it comes in a form of welcome "username"
+
+
+# all flowcharts has to be opened as a picture
