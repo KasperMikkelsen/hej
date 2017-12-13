@@ -42,9 +42,23 @@ if(isset($_POST['login'])) {
 		<br><br>
 		<label>Password:</label>
 		<br>
+<<<<<<< HEAD
 		<input type="password" name="password" placeholder="Password">
 		<br><br>
 		<input type="submit" name="login" class="signup" value="Login">
+=======
+		<input type="password" name="password" placeholder="Enter your Password">
+		<!-- <br>
+		<label>Your full name:</label>
+		<br>
+		<input type="text" name="navn" placeholder="Enter your Name">
+		<br>
+		<label>Your age:</label>
+		<br>
+		<input type="text" name="alder" placeholder="Enter your Age"> -->
+		<br>
+		<input type="submit" name="create" class="signup" value="Log in">
+>>>>>>> 4cc2a4082015ba19c9906e881df7ec6593fb3061
 	</form>
 </div>
 <body>
