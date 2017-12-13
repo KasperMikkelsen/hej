@@ -2,7 +2,7 @@
 
 # we have made a database in phpmyadmin where you have to make a database with the name db2 because we were not able to export the database
 # otherwise you just have to edit some code in connectDB.php
-# and you have to import our table, it is called databaseLN
+# and you have to import our table, it is called login
 
 # we starts on a page called index.php, it is our home page where we have a dropdown menu
 # here you can choose between signup and login.
