@@ -20,7 +20,7 @@
 		$rows = mysqli_num_rows($res);
 		if ($rows>=1) 
 		{	
-			$message = "User exists, please choose another.";
+			$message = "Username exists, please choose another.";
 			echo "<script type='text/javascript'>alert('$message');</script>";
 		} 
 		else
@@ -38,7 +38,7 @@
 
 </header>
 <!-- create user textboxes and button start -->
-<!-- desription -->
+<!-- description -->
 <div class="whatever">
 	<form method="post" name="signUpForm">
 		<h2>Sign Up</h2>
