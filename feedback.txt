@@ -1,0 +1,17 @@
+hej
+Andreas, Kasper
+
+Readme:
+Jeg mangler lidt mere præcis formulering af hvordan man åbner jeres projekt op. "You just have to edit some code" er ikke præcist nok for eksempel.
+
+Kommentering:
+Fin kommentering, ingen kommentarer
+
+GIT:
+God brug af versionering, og rigeligt med commits.
+
+Flowchart:
+Gode Flowcharts, ingen kommentarer
+
+Overall:
+10, udemærket aflevering. Jeres readme kunne godt bruge en ekstra hånd dog.
